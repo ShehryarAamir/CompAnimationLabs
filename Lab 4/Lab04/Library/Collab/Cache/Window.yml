@@ -1,0 +1,542 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/GuardAvatar.mask
+    - Assets/GuardAvatar.mask.meta
+    - Assets/GuardController.controller
+    - Assets/GuardController.controller.meta
+    - Assets/Lab04-resources.meta
+    - Assets/Lab04-resources/Braced Hang To Crouch.anim
+    - Assets/Lab04-resources/Braced Hang To Crouch.anim.meta
+    - Assets/Lab04-resources/Ch18_nonPBR@Braced Hang To Crouch.fbx
+    - Assets/Lab04-resources/Ch18_nonPBR@Braced Hang To Crouch.fbx.meta
+    - Assets/Lab04-resources/Ch18_nonPBR@Climbing.fbx
+    - Assets/Lab04-resources/Ch18_nonPBR@Climbing.fbx.meta
+    - Assets/Lab04-resources/Ch18_nonPBR@Running Jump.fbx
+    - Assets/Lab04-resources/Ch18_nonPBR@Running Jump.fbx.meta
+    - Assets/Lab04-resources/Ch18_nonPBR@Vault Over Box.fbx
+    - Assets/Lab04-resources/Ch18_nonPBR@Vault Over Box.fbx.meta
+    - Assets/Lab04-resources/Climbing.anim
+    - Assets/Lab04-resources/Climbing.anim.meta
+    - Assets/Lab04-resources/Lab04-resources.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 1.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 1/idle.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 1/idle.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 1/sneaking
+      forward.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 1/sneaking
+      forward.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 4.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 4/Walking.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 4/Walking.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 4/crouch.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/1-Explore/Step 4/crouch.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/Crouch-LookCorner.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/Crouch-LookCorner.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/Crouch-SneakingLeft.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/Crouch-SneakingLeft.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/SneakingForward.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/SneakingForward.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/StandToCover.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/StandToCover.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/breathing-idle.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/breathing-idle.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/cover-idle.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/cover-idle.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/coverToStand.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/coverToStand.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/sword-idle.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 1/sword-idle.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2/axeReady.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2/axeReady.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2/bowReady.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2/bowReady.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2/swordReady.anim
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Animations/2-Act/Act 2/swordReady.anim.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/GUARD.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/GUARD.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03.mat
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03.mat.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03__diffuse.png
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03__diffuse.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03__normal.png
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03__normal.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03__specular.png
+    - Assets/Lab04-resources/Lab04-resources/Part 1/Characters/Guard_03__specular.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Diffuse.png
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Diffuse.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Glossiness.png
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Glossiness.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Normal.png
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Normal.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Specular.png
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_1001_Specular.png.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_Body.mat
+    - Assets/Lab04-resources/Lab04-resources/Part 2/Ch18_Body.mat.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/archer.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 2/archer.fbx.meta
+    - Assets/Lab04-resources/Lab04-resources/Part 2/dude.fbx
+    - Assets/Lab04-resources/Lab04-resources/Part 2/dude.fbx.meta
+    - Assets/Lab04-resources/Running Jump.anim
+    - Assets/Lab04-resources/Running Jump.anim.meta
+    - Assets/Lab04-resources/Vault Over Box.anim
+    - Assets/Lab04-resources/Vault Over Box.anim.meta
+    - Assets/Lab4Part2.meta
+    - Assets/Lab4Part2/Ch18_nonPBR@Braced Hang To Crouch.fbx
+    - Assets/Lab4Part2/Ch18_nonPBR@Braced Hang To Crouch.fbx.meta
+    - Assets/Lab4Part2/Ch18_nonPBR@Climbing.fbx
+    - Assets/Lab4Part2/Ch18_nonPBR@Climbing.fbx.meta
+    - Assets/Lab4Part2/Ch18_nonPBR@Running Jump.fbx
+    - Assets/Lab4Part2/Ch18_nonPBR@Running Jump.fbx.meta
+    - Assets/Lab4Part2/Ch18_nonPBR@Vault Over Box.fbx
+    - Assets/Lab4Part2/Ch18_nonPBR@Vault Over Box.fbx.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/CatBorg Studio.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/Glass.mat
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/Glass.mat.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/M_Imphenzia_LowPollyStyle.mat
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/M_Imphenzia_LowPollyStyle.mat.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/Material_Emmision_Red.mat
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Materials/Material_Emmision_Red.mat.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#3.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bottle#3.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Bowl#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Candels#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Candels#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_Cup#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_WoodenChear#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_WoodenChear#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_WoodenChear#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_WoodenChear#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_WoodenTable#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_DiningHall_01_WoodenTable#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BigBook#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BigBook#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BigBook#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BigBook#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookShelve_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Blue.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Blue.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Green.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Green.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Purple.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Purple.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Red.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_BookSmall_Red.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Candle#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Candle#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Chear_High#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_Desk#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_InkWell#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_InkWell#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_Chopper.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1_Stander.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1_Stander.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#3.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#3.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_SpoonBucket.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_SpoonBucket.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_WoodenTable#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_WoodenTable#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Anvil.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Anvil.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_AnvilStand.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_AnvilStand.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Blower.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Blower.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_CooperBar.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_CooperBar.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Forge.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Forge.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Frame.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Frame.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Wheel.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_GrindingWheel_Wheel.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Hammer#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_IronBar.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_IronBar.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_WoodenRack.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_WoodenRack.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_3.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_3.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_4.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_4.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Chest_Bottom#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Chest_Bottom#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Chest_Top#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Chest_Top#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Coin#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Coin#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Emerald#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Emerald#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Rubin#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Rubin#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_Cannon.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_Cannon.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_RamTower.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_RamTower.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_Spiner.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_Spiner.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Destroyable.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Destroyable.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Whole.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Whole.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_MK2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_MK2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_Whole.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_Whole.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Red.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Red.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Red_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Red_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_PracticeTarget.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_PracticeTarget.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Splash_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Splash_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Star.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Star.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Torch_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Torch_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_0.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_0.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_3.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_3.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_4.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_4.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_5.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_5.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Doors.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Doors.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#1.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#1.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#2.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#2.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_01.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_01.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_02.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_02.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_03.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_03.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_05.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_05.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Stears.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Stears.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_01.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_01.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_02.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_02.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_03.fbx
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Wall_03.fbx.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#3.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bottle#3.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Bowl#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Candels#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Candels#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_Cup#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenChear#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenChear#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenChear#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenChear#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenTable#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_DiningHall_01_WoodenTable#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BigBook#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BigBook#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BigBook#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BigBook#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookShelve_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookShelve_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookShelve_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookShelve_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Blue.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Blue.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Green.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Green.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Purple.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Purple.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Red.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_BookSmall_Red.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Candle#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Candle#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Chear_High#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Desk#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Desk#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Desk#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_Desk#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/01_Library_01_InkWell#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_Chopper.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_Chopper.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1_Stander.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#1_Stander.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#3.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CookingPot#3.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_CuttingBoard.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_SpoonBucket.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_SpoonBucket.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_WoodenTable#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/02_Kitchen_01_WoodenTable#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Anvil.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Anvil.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_AnvilStand.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_AnvilStand.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Blower.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Blower.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_CooperBar.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_CooperBar.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Forge.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Forge.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Frame.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Frame.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Wheel.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_GrindingWheel_Wheel.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_Hammer#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_IronBar.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_IronBar.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_WoodenRack.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/03_Blacksmith_01_WoodenRack.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_3.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_3.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_4.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Beed_4.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/04_Bedroom_01_Matrace_ForBeed_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Chest_Bottom#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Chest_Bottom#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Chest_Top#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Chest_Top#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Coin#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Coin#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Emerald#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Emerald#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Rubin#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/05_Vault_01_Rubin#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Cannon.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Cannon.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_FloorWheel.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_FloorWheel.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_RamTower.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_RamTower.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Spiner.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/96_Traps_Trap_Spiner.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Destroyable.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Destroyable.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Whole.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Amphora_Whole.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Barrel_MK2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Barrel_MK2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Barrel_Whole.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Barrel_Whole.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Green.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Green.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Green_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Green_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Red.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Red.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Red_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Red_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Key_Yellow_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_PracticeTarget.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_PracticeTarget.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Splash_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Splash_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Star.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Star.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Torch_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/97_Othert_Torch_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_SpiderWebb_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_SpiderWebb_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_SpiderWebb_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_SpiderWebb_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_0.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_0.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_3.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_3.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_4.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_4.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_5.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Decorations_WallBanner_5.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Column_Rocky_1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Column_Rocky_1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Doors.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Doors.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_DoorsFake#1.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_DoorsFake#1.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_DoorsFake#2.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_DoorsFake#2.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_01.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_01.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_02.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_02.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_03.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_03.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_05.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Floor_05.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Stears.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Stears.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_01.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_01.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_02.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_02.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_03.prefab
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Prefabs/99_Enviroment_Wall_03.prefab.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room1.unity
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room1.unity.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room2.unity
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room2.unity.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room3.unity
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Scenes/DemoScene_Room3.unity.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Textures.meta
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Textures/K4DvOYlE.png
+    - Assets/Scenes/CatBorg Studio/3D Dungeon Lowpoly Pack/Textures/K4DvOYlE.png.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
